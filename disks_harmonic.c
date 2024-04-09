@@ -14,21 +14,3 @@ typedef struct {
  double Fx,Fy,E;
  double dx,dy;
 } particle;
-typedef struct elem elem;
-struct elem
-{
- int num;
- struct elem *next;
-};  
-typedef elem* site;
-typedef struct elem_n elem_n;
-struct elem_n
-{
- int x;
- int y;
- struct elem_n *next;
-};
-
-typedef struct { 
- int n;
-} Cells;
